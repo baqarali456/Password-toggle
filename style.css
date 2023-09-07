@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blue;
+}
+
+.container{
+    background-color: seagreen;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.password-text{
+    color: #fff;
+    margin-right: 10px;
+}
+#password{
+    padding:5px 0;
+}
+#position{
+    color: #000;
+   position: absolute;
+   right: 26%;
+   cursor: pointer;
+}
